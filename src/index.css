@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.bem-vindo {
+    color: rgb(21, 146, 155);
+    font-size: 24px;
+    text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.contador {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contador button, .cor-fundo button, .formulario button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: rgb(21, 146, 155);
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contador button:hover {
+  background-color: #45a049;
+}
+
+.cor-fundo{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.formulario {
+    text-align: center;
+    margin-top: 30px;
 }
